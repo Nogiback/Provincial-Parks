@@ -1,2 +1,3 @@
 # Provincial-Parks
-Flexbox - Landing Page Project - The Odin Project
+
+This is for the Landing Page project found in the Flexbox unit of The Odin Project.

@@ -75,7 +75,7 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin-bottom: 96px;
+    margin-bottom: 100px;
 }
 
 .content-boxes {
@@ -115,12 +115,15 @@ button {
 }
 
 .footer{
+    font-size: 18px;
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    margin: 0;
+    padding: 20px;
 }
 
 ul, a {

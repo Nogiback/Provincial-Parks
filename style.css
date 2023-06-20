@@ -29,8 +29,6 @@ body {
     gap: 10px;
     align-items: baseline;
     flex: 1 0 auto;
-    padding: 0;
-    margin: 0;
 }
 
 .intro {
@@ -56,8 +54,9 @@ h1 {
 .intro > img {
     width: 450px;
     height: 250px;
-    flex: 0 1 auto;
-    padding-left: 36px;
+    flex: none;
+    margin-left: 36px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 button {
@@ -75,7 +74,7 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin-bottom: 100px;
+    margin-bottom: 96px;
 }
 
 .content-boxes {
@@ -101,17 +100,16 @@ button {
 
 .content-boxes img {
     width: 200px;
-    height: 200px;
+    height: 180px;
     border: 5px solid #3882F6;
     border-radius: 24px;
-    padding: 0;
-    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content-boxes p {
     text-align: center;
     width: 200px;
-    margin: 12px 0;
+    margin: 16px 0;
 }
 
 .footer{
